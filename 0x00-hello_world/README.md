@@ -19,3 +19,15 @@ return 0;
 }
 
 this code prints an output that says: Programming is like building a multilingual puzzle.
+
+5)
+#include<stdio.h>
+/**                                                                 
+* main - main block                                                 
+* Return: 0                                                         
+*/                                                                  
+int main(void)                                                      
+{                                                                   
+printf("%s", "with proper grammar, but the outcome is a piece of art\
+,\n")                                                                
+return (0);
