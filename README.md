@@ -1,1 +1,0 @@
-0) gcc -E $CFILE.c => this runs the c file through a preprocessor and saves the result into the variable $CFILE.
