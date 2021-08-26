@@ -6,12 +6,16 @@
 
 3) gcc $CFILE -o cisfun => this script compiles a C file and creates an executable file named cisfun .
 
-4) #include<stdio.h>
-
-   int main()
+4)
+#include<stdio.h>
+/**
+ * main - main block
+ * Return: 0
+*/
+int main()
 {
-   puts("Programming is like building a multilingual puzzle\n");
-   return 0;
+puts("Programming is like building a multilingual puzzle\n");
+return 0;
 }
 
 this code prints an output that says: Programming is like building a multilingual puzzle.
