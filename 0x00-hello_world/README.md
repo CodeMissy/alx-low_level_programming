@@ -49,3 +49,5 @@ printf("Size of a long long int: %lu byte(s)\n", sizeof(long long int));
 printf("Size of a float: %lu byte(s)\n", sizeof(float));
 return (0);
 }
+
+7) gcc -masm=intel $CFILE -S > $(echo $CFILE|cut -d"." -f1).s => generates the assembly code (Intel syntax) of a C code and save it in an output file.
