@@ -4,4 +4,14 @@
 
 2) gcc $CFILE -S > $(echo $CFILE|cut -d"." -f1).s => this generates the assembly code of a C code and saves it in an output file.
 
-3) gcc $CFILE -o cisfun => this script compiles a C file and creates an executable file named cisfum.
+3) gcc $CFILE -o cisfun => this script compiles a C file and creates an executable file named cisfun .
+
+4) #include<stdio.h>
+
+   int main()
+{
+   puts("Programming is like building a multilingual puzzle\n");
+   return 0;
+}
+
+this code prints an output that says: Programming is like building a multilingual puzzle.
