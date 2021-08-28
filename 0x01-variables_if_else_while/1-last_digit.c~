@@ -18,7 +18,7 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 
 lastDigit = n % 10;
-printf("lastDigit of %d is %d and is ", n, lastDigit);
+printf("lastDigit of %i is %i and is ", n, lastDigit);
 if (lastDigit > 5)
 printf("and is greater than 5\n");
 else if (lastDigit == 0)
