@@ -7,12 +7,12 @@
 
 int main(void)
 {
-int letter;
-for (letter = 'a' ; letter < = 'z' ; letter++)
-}
-letter = tolower(letter);
-putchar(letter);
+char a = 'a';
+while (a < = 'z')
 {
+putchar(a);
+a++
+}
 putchar('\n');
 return (0);
 }
