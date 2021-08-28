@@ -7,9 +7,12 @@
 
 int main(void)
 {
-char x;
-for (x = 'a' ; x < = 'z' ; x++)
+int ch;
+for (ch = 'a' ; ch < = 'z' ; ch++)
+}
+ch = tolower(ch);
 putchar(ch);
-
+{
+putchar('\n');
 return (0);
 }
