@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <type.c>
 /**
  * main - main block
  * Return: 0
