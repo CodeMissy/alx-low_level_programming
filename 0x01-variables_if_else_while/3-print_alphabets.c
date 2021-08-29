@@ -2,19 +2,18 @@
 #include <stdlib.h>
 
 /**
- * main - this string prints lowercase alphabets followed by uppercase alphabets.
+ * main -  prints lowercase alphabets followed by uppercase.
  * Return: 0
  */
 
 int main(void)
 {
 int ch;
-for(ch= 'a'; ch<= 'z'; ch++)
+for (ch = 'a'; ch < = 'z'; ch++)
 putchar(ch);
 putchar('\n');
 
-for(ch= 'A'; ch<= 'Z'; ch++)
+for (ch = 'A'; ch < = 'Z'; ch++)
 putchar(ch);
-
 return (0);
-} 
+}
