@@ -18,4 +18,7 @@ void print_numbers(void);
 /* prints numbers from 0 to 9 without printing 2 and 4*/
 void print_most_numbers(void);
 
+/* prints 10× numbers 0 to 14 */
+void more_numbers(void);
+
 #endif
