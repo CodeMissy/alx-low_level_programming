@@ -1,24 +1,10 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-int _putchar(char c);
-
-/* checks if letter is uppercase */
 int _isupper(int c);
-
-/* checks if an integer is a digit */
 int _isdigit(int c);
-
-/* performs multiplication of two integers */
 int mul(int a, int b);
-
-/* prints numbers from 0 to 9 */
 void print_numbers(void);
-
-/* prints numbers from 0 to 9 without printing 2 and 4*/
 void print_most_numbers(void);
-
-/* prints 10× numbers 0 to 14 */
 void more_numbers(void);
-
-#endif
+void print_line(int n);
+void print_diagonal(int n);
+void print_square(int size);
+void print_triangle(int size);
