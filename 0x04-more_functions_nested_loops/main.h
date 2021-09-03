@@ -21,4 +21,7 @@ void print_most_numbers(void);
 /* prints numbers 0 to 9 ten times */
 void more_numbers(void);
 
+/* draws a straight line in the terminal */
+void print_line(int n);
+
 #endif
