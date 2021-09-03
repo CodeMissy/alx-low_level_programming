@@ -1,7 +1,12 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main- prints the FizzBuzz Program
+ * main - entry point
+ * Description - prints the FizzBuzz Program
+ * Fizzz for multiples of 3, Buzz - multiples of 5,
+ * FizzBuzz for multiples of 15
+ *
  * Return: void
  */
 
@@ -16,6 +21,6 @@ printf("Fizz ");
 else if (i % 5 == 0)
 printf("Buzz ");
 else
-printf("%i ", i);
- printf("\n");
+printf("%d ", i);
+printf("\n");
 }
