@@ -2,7 +2,9 @@
 
 /**
  * main- prints the FizzBuzz Program
+ * Return: void
  */
+
 int main(void)
 {
 int i;
