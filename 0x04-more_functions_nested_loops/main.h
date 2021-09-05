@@ -30,7 +30,10 @@ void print_diagonal(int n);
 /* prints a square in the terminal */
 void print_square(int size);
 
-/* printd the FizzBuzz program */
+/* prints the FizzBuzz program */
 int main(void);
+
+/* prints a triangle in the program */
+void print_triangle(int size);
 
 #endif
