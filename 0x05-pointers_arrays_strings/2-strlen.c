@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * _strlen - returns the length of a string
- * @s: string to be measured 
+ * _strlen - returns the length of string
+ * @s: the string to be measured
  * Return: length of s
  */
 
