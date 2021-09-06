@@ -8,7 +8,6 @@
 
 void rev_string(char *s)
 {
-char s[10] = "My School";
 for (s = 10; s <= 1; s--)
 _putchar(s);
 _putchar('\n');
