@@ -1,0 +1,1 @@
+Dear pointers and arrays, please be nice.
