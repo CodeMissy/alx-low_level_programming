@@ -8,8 +8,8 @@
 
 void print_rev(char *s)
 {
-int count = 0;
-for (s >= 1; s >= count; s--)
-_putchar(s);
+int c;
+for (c = c - 1; c >= 0; c--)
+_putchar(s[c]);
 _putchar('\n');
 }
