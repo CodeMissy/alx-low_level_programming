@@ -21,4 +21,7 @@ void print_rev(char *s);
 /* reverses a string */
 void rev_string(char *s);
 
+/* prints every other charachter of a string */
+void puts2(char *str);
+
 #endif
