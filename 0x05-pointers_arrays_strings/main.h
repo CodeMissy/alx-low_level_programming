@@ -27,4 +27,7 @@ void puts2(char *str);
 /* prints only half of a string */
 void puts_half(char *str);
 
+/* prints n element of an arrays of integers */
+void print_array(int *a, int n);
+
 #endif
