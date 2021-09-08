@@ -1,0 +1,1 @@
+Here i'm learning about pointers, arrays and strings in C#, strcat, strcpy, strncat, functions and more.
