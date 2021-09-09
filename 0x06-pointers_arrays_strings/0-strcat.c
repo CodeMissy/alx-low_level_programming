@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strcat - contactenates strings src and dest
- * @dest: string one
- * @src: string two
- * Return: new string
+ * @dest: string to concatenated to
+ * @src: string to be concatenated
+ * Return: pointer to resulting string
  */
 
 char *_strcat(char *dest, char *src)
