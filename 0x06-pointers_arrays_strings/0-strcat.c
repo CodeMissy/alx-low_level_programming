@@ -5,14 +5,18 @@
  * _strcat - contactenates strings src and dest
  * @dest: string one
  * @src: string two
- * Return: *dest
+ * Return: new string
  */
 
 char *_strcat(char *dest, char *src)
 {
-char *dest, *src;
-strcpy(*dest);
-strcpy(*src);
-strcat(*dest, *src);
-_putchar(*dest);
+char y, z;
+for (y = 0; *dest[y] != 0; y++)
+for (z = 0; *src[z] != 0; z++)
+{
+*dest[y] = *src[z];
+y++
+}
+dest[y] != '\0';
+return (dest)
 }
