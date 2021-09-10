@@ -9,14 +9,9 @@
 
 char *_strcat(char *dest, char *src)
 {
-char y, z;
-for (y = 0; dest[y] != '\0'; y++)
-;
-for (z = 0; src[z] != '\0'; z++)
-{
-dest[y] = src[z];
-y++;
-}
-dest[y] = '\0';
+printf("%s\n", *dest);
+printf("%s\n", *src);
+_strcat(8dest, *src);
+printf("%s", *dest0; 
 return (dest);
 }
