@@ -9,9 +9,9 @@
 
 char *_strcat(char *dest, char *src)
 {
-printf("%s\n", *dest);
-printf("%s\n", *src);
+_putchar(*dest);
+_putchar(*src);
 _strcat(8dest, *src);
-printf("%s", *dest0; 
+_putchar(*dest); 
 return (dest);
 }
