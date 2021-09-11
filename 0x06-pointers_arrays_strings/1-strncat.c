@@ -2,18 +2,21 @@
 
 /**
  * _strncat - contactenates two strings
- * @dest: string 1
- * @dest: string 2
+ * @dest: string to be contacenated to
+ * @src: string to be contacenated
  * @n: integer used
- * Return: void
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-char *dest, *src;
-int n;
-_strcpy(str1);
-_strcpy(str2);
-_strncat(str1, str2, sizeof(str1) (strlen(str1) - 1);
-_putchar(str1);
+int i;
+int n = 0;
+while (dest[n] != '\0')
+{
+dest++;
+}
+if (i = 0; i < n; i++)
+dest[n + i];
+return (dest);
 }
