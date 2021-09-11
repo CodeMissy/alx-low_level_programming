@@ -9,15 +9,14 @@
 
 int _strcmp(char *s1, char *s2)
 {
-int i;
-if ( s1 == s2)
+while (*s1 == *s2)
 {
-while (i < s1)
+if (*s1 == '\0')
 {
-if (s1[i] == s2[i])
-i++;
-else break;
+return (0);
 }
-return (diff);
+s1++;
+s2++;
 }
+return (*s1 - *s2);
 }
