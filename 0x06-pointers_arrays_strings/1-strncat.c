@@ -4,7 +4,7 @@
  * _strncat - contactenates two strings
  * @dest: string to be contacenated to
  * @src: string to be contacenated
- * @n: integer used
+ * @n: number of bytes  used
  * Return: dest
  */
 
@@ -16,7 +16,7 @@ while (dest[n] != '\0')
 {
 dest++;
 }
-if (i = 0; i < n; i++)
-dest[n + i];
+if (i = 0; i < n; && src[i] != '\0';  i++)
+dest[n + i] = src[i];
 return (dest);
 }
