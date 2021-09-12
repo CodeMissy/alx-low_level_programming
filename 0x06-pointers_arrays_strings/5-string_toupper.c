@@ -6,6 +6,7 @@
  * @s: string array
  * Return: string array
  */
+
 /* the first for loop continues to print characters until it reaches null */
 
 /* the if statement, if present character is lowercase, convert it to uppercase, 32 is used here because 32 is the difference between a and A, so subtracting 32 performs the conversion */
