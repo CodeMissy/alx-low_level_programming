@@ -6,26 +6,15 @@
  * @s: string array
  * Return: string array
  */
+/* the first for loop continues to print characters until it reaches null */
+
+/* the if statement, if present character is lowercase, convert it to uppercase, 32 is used here because 32 is the difference between a and A, so subtracting 32 performs the conversion */
 
 char *string_toupper(char *s)
 {
 int i;
-
-/**
- * this line continues to print characters until -
- * reaches null
- */
- 
 for (i = 0; s[i] != '\0'; i++)
 {
-
-/** 
- * if present character is lowercase, convert it -
- * to uppercase, 32 is used here because 32 is -
- * the difference between a and A, so subtracting -
- * 32 performs the conversion
- */
-
 if (s[i] >= 'a' && s[i] <= 'z')
 s[i] = s[i] - 32;
 }
