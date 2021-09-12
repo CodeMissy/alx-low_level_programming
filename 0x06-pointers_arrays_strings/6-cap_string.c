@@ -13,7 +13,7 @@ int i = 0;
 while (s[i])
 {
 while (!(s[i] >= 'a' && s[i] <= 'z'))
-index++;
+i++;
 
 if (s[i - 1] == ' ' ||
 s[i - 1 == '\t' ||
