@@ -1,13 +1,34 @@
 #include "main.h"
 
 /**
- * set_string - Sets the value of a pointer to char
- * @s: the value to modify
- * @to: the value to assign
+ * _strspn - Gets the length of a prefix substring.
+ * @s: The string to be searched.
+ * @accept: The prefix to be measured.
  *
- * Return: Nothing.
+ * Return: The number of bytes in s which
+ *         consist only of bytes from accept.
  */
-void set_string(char **s, char *to)
+unsigned int _strspn(char *s, char *accept)
 {
-*s = to;
+  unsigned int bytes = 0;
+  int index;
+
+  while (*s)
+    {
+      for (index = 0; accept[index]; index++)
+	{
+	  if (*s == accept[index])
+	    {
+	      bytes++;
+	      break;
+	    }
+
+	  else if (accept[index + 1] == '\0')
+	    return (bytes);
+	}
+
+      s++;
+    }
+
+  return (bytes);
 }
