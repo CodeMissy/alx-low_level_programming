@@ -8,11 +8,11 @@
 
 _puts_recursion(char *s)
 {
-char i;
+char i, int n;
 s = &i
 
-if (i <= 1)
-return(1);
+if (i <= n)
+return(n);
 _putchar('\n');
 }
 
