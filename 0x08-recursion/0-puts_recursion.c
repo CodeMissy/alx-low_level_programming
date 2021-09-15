@@ -2,16 +2,18 @@
 
 /**
  * _puts_recursion - prints a string
- * @s: character used
- * @n: number of times string is printed
+ * @s: string printed
  * Return: void
  */
 
 _puts_recursion(char *s)
 {
-int n;
-if (*s <= n)
-return(n);
+if (*s != '\0')
+{
+_putchar(*s);
+_puts_recursion(s + 1);
+}
+else 
 _putchar('\n');
 }
 
