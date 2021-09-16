@@ -3,6 +3,9 @@
 /**
  * _sqrt_recursion - finds square root of a num
  * @n: num
+ * @mid: middle value
+ * @high: high value
+ * @low: low value
  * Return: square root
  */
 
