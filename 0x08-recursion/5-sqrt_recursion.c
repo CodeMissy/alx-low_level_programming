@@ -13,8 +13,6 @@ if (i < 0)
 return (-1);
 if (i == 0)
 return (1);
-if (i < 1)    
-return (_sqrt_recursion (n, i + 1) / n);
 else
-return (_sqrt_recursion (n, i + 1) * n);
+return (_sqrt_recursion (n, i + 1) / n);
 }
