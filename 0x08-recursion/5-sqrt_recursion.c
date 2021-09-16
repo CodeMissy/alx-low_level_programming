@@ -3,18 +3,18 @@
 /**
  * _sqrt_recursion - finds square root of a num
  * @n: num
- * @mid: middle value
- * @high: high value
- * @low: low value
  * Return: square root
  */
 
 int _sqrt_recursion(int n)
 {
-int low, int high;
-int mid = low + high / 2;
-if (mid * mid <= n))
-return (mid);
+int i;
+if (i < 0)
+return (-1);
+if (i == 0)
+return (1);
+if (i < 1)    
+return (_sqrt_recursion (n, i + 1) / n);
 else
-return (_sqrt_recursion (low, mid - 1, n));
+return (_sqrt_recursion (n, i + 1) * n);
 }
