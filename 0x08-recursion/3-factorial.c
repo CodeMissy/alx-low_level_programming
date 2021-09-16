@@ -13,5 +13,5 @@ if (n == -1)
 return (-1);
 }
 else
-return (factorial = n * (n-1));
+return (n! = n * (n - 1)!);
 }
