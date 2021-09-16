@@ -4,6 +4,6 @@
 int _putchar(char c);
 
 /* prints a string */
-_puts_recursion(char *s);
+void _puts_recursion(char *s);
 
 #endif
