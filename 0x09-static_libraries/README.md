@@ -1,0 +1,1 @@
+For the first time, i'm learning to create a static library.
