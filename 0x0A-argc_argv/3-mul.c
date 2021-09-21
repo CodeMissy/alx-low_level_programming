@@ -9,7 +9,7 @@
  * Return: 0 but if error return 1
  */
 
-int main(int argc, char *argv[])
+int main(int argc __argument__((unused)), char *argv[])
 {
 if (argv[1] && argv[2])
 {
