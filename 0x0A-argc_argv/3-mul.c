@@ -12,7 +12,7 @@
 int main(int argc __argument__((unused)), char *argv[])
 {
 int a, b, mul;
-if (argv <= 2)
+if (argc <= 2)
 {
 printf("Error\n");
 return (1);
