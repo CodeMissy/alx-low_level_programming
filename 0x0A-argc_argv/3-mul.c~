@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * main - multiplies two numbers
+ * @argc: argument counter
+ * @argv: stores array of arguments passed
+ * Return: multiplication
+ */
+
+int main(int argc, char *argv[])
+{
+int a, int b;
+int product;
+product = a * b;
+printf("%d\n", product);
+return (0);
+}
