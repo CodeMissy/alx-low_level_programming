@@ -15,7 +15,7 @@ unsigned int b;
 
 if (size == 0)
 return (NULL);
-  
+
 i = malloc(size * sizeof(*i));
 if (i == NULL)
 return (NULL);
