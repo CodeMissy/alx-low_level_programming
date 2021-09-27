@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - prints the filename of the program
@@ -8,6 +7,6 @@
 
 int main(void)
 {
-printf("%s", _FILE_);
+printf("%s\n", __FILE__);
 return (0);
 }
