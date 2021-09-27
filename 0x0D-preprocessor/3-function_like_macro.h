@@ -1,4 +1,3 @@
-#include "main.h"
 #ifndef _HEADER
 #define _HEADER_
 #define ABS(x) (x > 0 ? (x) : (x) * -1)
