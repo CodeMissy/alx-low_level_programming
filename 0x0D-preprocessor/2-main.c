@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 
-int main()
+/**
+ * main - prints the filename of the program
+ * Return: always 0
+ */
+
+int main(void)
 {
-printf("2-main.c");
+printf("%s", _FILE_);
 return (0);
 }
