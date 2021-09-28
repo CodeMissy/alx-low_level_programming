@@ -1,0 +1,1 @@
+typedef simply put is using a new word to replace a datatype
