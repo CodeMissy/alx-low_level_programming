@@ -1,12 +1,12 @@
 #include "main.h"
-#include <stdio.h>
+#include <lists.h>
 #include <string.h>
 
 /**
  * print_list - prints all singly list element
  * list_t - singly list
  * @h: head of list
- * Return: void
+ * Return: number of nodes
  */
 
 size_t print_list(const list_t *h)
